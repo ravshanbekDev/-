@@ -14,9 +14,8 @@
   background-size: $size;
 }
 
-@mixin display($direction, $iteam, $justify) {
+@mixin display($iteam, $justify) {
   display: flex;
-  flex-direction: $direction;
   align-items: $iteam;
   justify-content: $justify;
 }
@@ -30,5 +29,17 @@
 
 @mixin breakpoint-up($size) {
   @media only screen and (min-width: $size) {
+  }
+}
+
+@mixin btn() {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  border: 1px solid #1773BA;
+  padding: 20px 60px;
+  &:hover{
+    cursor: pointer;
   }
 }

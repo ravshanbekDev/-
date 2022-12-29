@@ -12,14 +12,22 @@ html {
 
 body {
   height: 100%;
-  font-family: "Jost", "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #f2f2f2;
   height: 100vh;
+}
+
+ul{
+  list-style-type: none;
+  list-style: none;
+}
+
+a{
+  text-decoration:none;
 }
 
 .container {
   max-width: 1150px;
   padding: 0 20px;
   margin: 0 auto;
-  margin-top: 50px;
 }
