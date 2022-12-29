@@ -32,3 +32,22 @@
   @media only screen and (min-width: $size) {
   }
 }
+
+@mixin title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  font-feature-settings: "cpsp" on;
+  color: #363636;
+}
+
+@mixin text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #363636;
+}
