@@ -1,0 +1,17 @@
+.clients{
+  padding: 150px 0;
+  background: #1773BA;
+  &__caption{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  &__wrapper{
+    @include display(center,center);
+    margin-top: 80px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
